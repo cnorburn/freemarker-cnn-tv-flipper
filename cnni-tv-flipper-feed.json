@@ -1,0 +1,34 @@
+{
+	"template-source":"@package@/ftl/pages/cnni-tv-flipper-feed.ftl",
+	"content-type":"text/xml",
+	"properties":{
+		"displayOrder":["news","business","sport"],
+		"sectionMap":{
+    		"news":{
+    			"displayname":"CNN.com - World",
+    			"url":"http://www.cnn.com/WORLD/index.html",
+    			"querystring":"?eref=rss_world",
+    			"domain":"www.cnn.com",
+    			"displaycount":"10",
+    			"category":"cnntopstories"
+    		},
+    		"business":{
+    			"displayname":"CNN.com - Business",
+    			"url":"http://edition.cnn.com/BUSINESS/index.html",
+    			"querystring":"?eref=rss_business",
+    			"domain":"edition.cnn.com",
+    			"displaycount":"5",
+    			"category":"business"
+    			
+    		},
+    		"sport":{
+    			"displayname":"CNN.com - Sport",
+    			"url":"http://edition.cnn.com/SPORT/index.html",
+    			"querystring":"?eref=rss_sport",
+    			"domain":"edition.cnn.com",
+     			"displaycount":"5",
+    			"category":"sport"
+    		}
+    	}
+    }
+}
